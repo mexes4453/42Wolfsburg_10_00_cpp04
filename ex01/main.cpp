@@ -107,6 +107,12 @@ int main ( void )
     delete ax;
     ay.getBrainAddr()->showAllIdeas();
 
+
+    Dog basic;
+    {
+        Dog tmp = basic;
+    }
+
     INFO(TEST: ENDS);
     return (0);
 }
